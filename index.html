@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinámicas del Corazón - La extinción del amor en la era digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="progreso" aria-hidden="true"><span></span></div>
+    <header id="encabezado" class="site-header">
+        <nav class="nav-shell" aria-label="Navegación principal">
+            <a class="brand" href="#inicio" aria-label="Volver al inicio">
+                <span class="logo" aria-hidden="true">♥</span>
+                <span class="logo-lockup">
+                    <span class="logo-text">Dinámicas del Corazón</span>
+                    <span class="logo-kicker">Investigación transmedia</span>
+                </span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+                <span></span><span></span><span></span>
+                <span class="sr-only">Abrir menú</span>
+            </button>
+
+            <div id="menu-principal" class="nav-links">
+                <div class="nav-item has-submenu">
+                    <a href="#problema">El problema</a>
+                    <button class="submenu-toggle" type="button" aria-expanded="false" aria-label="Abrir submenú de El problema">⌄</button>
+                    <ul class="submenu">
+                        <li><a href="#problema">Planteamiento del problema</a></li>
+                        <li><a href="#pregunta">Pregunta problema</a></li>
+                        <li><a href="#justificacion">Justificación</a></li>
+                    </ul>
+                </div>
+                <div class="nav-item has-submenu">
+                    <a href="#objetivos">La investigación</a>
+                    <button class="submenu-toggle" type="button" aria-expanded="false" aria-label="Abrir submenú de La investigación">⌄</button>
+                    <ul class="submenu">
+                        <li><a href="#objetivos">Objetivos</a></li>
+                        <li><a href="#marco">Marco teórico</a></li>
+                        <li><a href="#antecedentes">Antecedentes</a></li>
+                        <li><a href="#metodologia">Metodología</a></li>
+                    </ul>
+                </div>
+                <a class="nav-link" href="#podcast">El podcast</a>
+                <a class="nav-link" href="#menciones">Menciones</a>
+                <a class="nav-link" href="#conclusion">Conclusiones</a>
+                <a class="nav-link nav-download" href="14_PrOrWeb.pdf" download>Descargar PDF ↗</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="contenido-principal">
+        <!-- HERO -->
+        <section id="inicio" class="hero">
+            <div class="hero-video" aria-hidden="true">
+                <video autoplay muted loop playsinline>
+                    <source src="amor-digital-redes.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="hero-overlay" aria-hidden="true"></div>
+            <span class="flota f1" aria-hidden="true">♥</span><span class="flota f2" aria-hidden="true">♥</span><span class="flota f3" aria-hidden="true">♥</span>
+            <div class="container hero-content">
+                <div class="hero-copy">
+                    <p class="chips"><span class="chip">Proyecto de investigación</span><span class="chip">Cali, 2026</span><span class="chip chip-tag">#AmorDigital</span></p>
+                    <h1 class="titulo-principal">La extinción del amor en la era digital</h1>
+                    <p class="descripcion">
+                        Una mirada transmedia a la manera en que los cambios digitales están transformando
+                        la forma en que los jóvenes de Producción Transmedia de la Universidad Santiago de Cali construyen, experimentan y mantienen sus relaciones amorosas.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#problema">Explorar investigación ↓</a>
+                        <a class="btn btn-ghost" href="#objetivos">Ver objetivos ↗</a>
+                        <a class="btn btn-ghost" href="14_PrOrWeb.pdf" download>Descargar PDF ↓</a>
+                    </div>
+                </div>
+                <div class="hero-meta" aria-label="Datos principales de la investigación">
+                    <div class="sticker s1"><span class="notif-ico" aria-hidden="true">♥</span><div><strong>19–20</strong><span>años, público objetivo</span></div><em aria-hidden="true">ahora</em></div>
+                    <div class="sticker s2"><span class="notif-ico" aria-hidden="true">📍</span><div><strong>Cali</strong><span>población situada</span></div><em aria-hidden="true">2 min</em></div>
+                    <div class="sticker s3"><span class="notif-ico" aria-hidden="true">🎙️</span><div><strong>Cualitativa</strong><span>tipo de estudio</span></div><em aria-hidden="true">5 min</em></div>
+                    <div class="typing" aria-hidden="true"><i></i><i></i><i></i></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PLANTEAMIENTO DEL PROBLEMA -->
+        <section id="problema" class="seccion container">
+            <div class="titulo-seccion"><h3>Planteamiento del Problema</h3></div>
+
+            <div class="grid grid-2">
+                <div class="tarjeta tarjeta-antes">
+                    <span class="emoji" aria-hidden="true">✉️</span>
+                    <h4 class="titulo">Tradicionalmente</h4>
+                    <p>Tradicionalmente, las relaciones amorosas se construyeron sobre el contacto directo y la comunicación personal.</p>
+                </div>
+                <div class="tarjeta tarjeta-ahora">
+                    <span class="emoji" aria-hidden="true">📲</span>
+                    <h4 class="titulo">En la actualidad</h4>
+                    <p>
+                        Sin embargo, en la actualidad, esta dinámica ha mutado hacia lo que Byung-Chul Han (2022) denomina la “agonía del Eros”, donde la sobreexposición digital y el consumo de imágenes reemplazan la intensidad del encuentro real. En este contexto, el amor ha dejado de ser un proceso profundo para convertirse en un objeto de elección rápida y racional (Illouz, 2019).
+                    </p>
+                    <div class="reacts" aria-hidden="true"><span>♥</span><span>💬</span><span>↗</span></div>
+                </div>
+            </div>
+            <div class="tarjeta hoy">
+                <h4 class="titulo">Hoy en día</h4>
+                <div class="prosa">
+                    <p>Hoy en día, los vínculos de los jóvenes en la Universidad Santiago de Cali, específicamente los estudiantes de Producción Transmedia en la ciudad de Cali durante el año 2026, surgen y se mantienen en ecosistemas digitales, transformando la expresión del afecto en un intercambio de datos y validación constante en redes sociales (Twenge, 2023).</p>
+                    <p>En la vida diaria de nosotros los estudiantes, esto se nota en que las relaciones se volvieron más pasajeras y cuesta mucho más trabajo comprometerse o formar lazos que de verdad duren, lo que demuestra la urgencia de investigar cómo las pantallas están cambiando la forma en que nos enamoramos y relacionamos.</p>
+                </div>
+            </div>
+
+            <div id="pregunta" class="pregunta-problema">
+                <h4 class="pildora">Pregunta Problema</h4>
+                <p>
+                    ¿Cómo influyen los cambios digitales en la forma en que los jóvenes de la carrera Producción Transmedia deconstruyen, experimentan y mantienen las relaciones amorosas en la actualidad?
+                </p>
+                <div class="composer" aria-hidden="true"><span>Escribe tu respuesta…</span><b>➤</b></div>
+            </div>
+        </section>
+
+        <!-- JUSTIFICACIÓN -->
+        <section id="justificacion" class="seccion container">
+            <div class="split">
+                <div class="titulo-seccion"><h3>Justificación</h3></div>
+                <div class="prosa">
+                    <p class="lead">
+                        El amor, como experiencia humana fundamental, está atravesando una transformación profunda impulsada por los avances tecnológicos y los cambios culturales (Giddens, 1992). Las redes sociales se han convertido en el principal escenario donde los jóvenes expresan afecto, buscan aprobación y desarrollan vínculos (Turkle, 2011).
+                    </p>
+                    <p>
+                        No obstante, esta hiperconectividad también genera dinámicas de superficialidad, dependencia emocional y distorsión de la intimidad (Bauman, 2005). Analizar este fenómeno es esencial para comprender cómo la tecnología está redefiniendo el amor juvenil y cómo puede afectar la estabilidad emocional y la salud mental (Universidad de Harvard, 2020).
+                    </p>
+                </div>
+            </div>
+            <div class="grid grid-3 tiles">
+                <div class="tarjeta o1">
+                    <span class="emoji" aria-hidden="true">🎓</span>
+                    <h5>Líneas de investigación</h5>
+                    <p>Este estudio se articula de manera directa con las Líneas de Investigación institucional de la Facultad de Humanidades y Artes de la Universidad Santiago de Cali, aportando a la reflexión crítica sobre las narrativas digitales y las dinámicas sociales contemporáneas.</p>
+                </div>
+                <div class="tarjeta o2">
+                    <span class="emoji" aria-hidden="true">🩺</span>
+                    <h5>ODS 3: Salud y Bienestar</h5>
+                    <p>Asimismo, el proyecto se vincula formalmente con los Objetivos de Desarrollo Sostenible (ODS), específicamente con el ODS 3: Salud y Bienestar, ya que busca visibilizar el impacto que el entorno digital tiene en el bienestar emocional de los universitarios.</p>
+                </div>
+                <div class="tarjeta o4">
+                    <span class="emoji" aria-hidden="true">🎧</span>
+                    <h5>Viabilidad</h5>
+                    <p>Por último, desde el punto de vista práctico y técnico, el proyecto es completamente viable y factible para su realización en formato de podcast, pues se cuenta con los equipos técnicos, las herramientas de edición transmedia y los recursos humanos necesarios para producir y difundir el podcast de manera exitosa.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- OBJETIVOS -->
+        <section id="objetivos" class="seccion container">
+            <div class="titulo-seccion"><h3>Objetivos</h3></div>
+
+            <h4 class="subtitulo">Objetivo General</h4>
+            <div class="tarjeta objetivo-general mb-12">
+                <p>
+                    Analizar la influencia de los cambios digitales en la forma en que los jóvenes de la carrera de Producción Transmedia en la Universidad Santiago de Cali viven, interpretan y mantienen las relaciones amorosas en la actualidad.
+                </p>
+            </div>
+
+            <h4 class="subtitulo">Objetivos Específicos</h4>
+            <div class="grid grid-2">
+                <article class="tarjeta obj o1">
+                    <div class="post-head"><span class="avatar" aria-hidden="true">📱</span><span>@redes_sociales</span></div>
+                    <h5>Redes Sociales</h5>
+                    <p>Examinar el impacto de las redes sociales en la percepción del amor y del compromiso bajo el modelo del “capitalismo emocional” (Illouz, 2020).</p>
+                    <div class="post-foot"><button class="like" type="button" aria-pressed="false" aria-label="Me gusta: Redes Sociales"></button><span aria-hidden="true">💬 ↗</span></div>
+                </article>
+                <article class="tarjeta obj o2">
+                    <div class="post-head"><span class="avatar" aria-hidden="true">💔</span><span>@dinamicas_digitales</span></div>
+                    <h5>Dinámicas Digitales</h5>
+                    <p>Identificar las dinámicas de interacción digital (likes, historias, visualizaciones) que configuran las nuevas narrativas afectivas en la población estudiada (Scolari, 2020).</p>
+                    <div class="post-foot"><button class="like" type="button" aria-pressed="false" aria-label="Me gusta: Dinámicas Digitales"></button><span aria-hidden="true">💬 ↗</span></div>
+                </article>
+                <article class="tarjeta obj o3">
+                    <div class="post-head"><span class="avatar" aria-hidden="true">⚡</span><span>@aprobacion_digital</span></div>
+                    <h5>Aprobación Digital</h5>
+                    <p>Explorar cómo la inmediatez y la búsqueda de aprobación digital afectan la estabilidad emocional de la pareja (Roberts &amp; David, 2023).</p>
+                    <div class="post-foot"><button class="like" type="button" aria-pressed="false" aria-label="Me gusta: Aprobación Digital"></button><span aria-hidden="true">💬 ↗</span></div>
+                </article>
+                <article class="tarjeta obj o4">
+                    <div class="post-head"><span class="avatar" aria-hidden="true">🎙️</span><span>@reflexion_juvenil</span></div>
+                    <h5>Reflexión Juvenil</h5>
+                    <p>Desarrollar la reflexión juvenil sobre las relaciones modernas mediante la creación de un podcast participativo como dispositivo de mediación transmedia (Scolari, 2022).</p>
+                    <div class="post-foot"><button class="like" type="button" aria-pressed="false" aria-label="Me gusta: Reflexión Juvenil"></button><span aria-hidden="true">💬 ↗</span></div>
+                </article>
+            </div>
+
+            <h4 class="subtitulo subtitulo-tabla">Objetivos de Investigación: justificación taxonómica de los objetivos</h4>
+            <p class="intro">Para garantizar el rigor metodológico del proyecto, la formulación de las metas se estructuró conectando nuestros objetivos con los niveles de complejidad cognitiva para la investigación:</p>
+            <div class="tabla-wrap">
+                <table>
+                    <thead>
+                        <tr><th scope="col">Objetivo</th><th scope="col">Verbo utilizado</th><th scope="col">Nivel taxonómico</th><th scope="col">Justificación en el proyecto</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><th scope="row">Objetivo de análisis</th><td><span class="verbo">Examinar</span></td><td>Análisis</td><td>Nos permite descomponer las opiniones de los estudiantes y organizar las categorías del “capitalismo emocional” en su cotidianidad.</td></tr>
+                        <tr><th scope="row">Objetivo de comprensión</th><td><span class="verbo">Identificar</span></td><td>Comprensión</td><td>Sirve para reconocer y describir cuáles son esos lenguajes específicos (likes, vistos, historias) que los jóvenes usan en su día a día.</td></tr>
+                        <tr><th scope="row">Objetivo de exploración</th><td><span class="verbo">Explorar</span></td><td>Exploración</td><td>Se aplica para indagar preliminarmente y sondear un fenómeno subjetivo como lo es la dependencia afectiva a las pantallas.</td></tr>
+                        <tr><th scope="row">Objetivo de creación</th><td><span class="verbo">Desarrollar</span></td><td>Creación</td><td>Es el nivel más alto de la propuesta transmedia; implica proponer, diseñar y construir un producto real (el podcast participativo).</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- MARCO TEÓRICO -->
+        <section id="marco" class="seccion container">
+            <div class="titulo-seccion"><h3>Marco Teórico</h3></div>
+            <p class="intro">El desarrollo de esta investigación se sustenta en tres ejes conceptuales clave que permiten comprender la transformación de los vínculos afectivos en el escenario digital actual: la evolución histórica de la intimidad, la fragilidad de los lazos en la modernidad líquida y el impacto de la tecnología en la socialización juvenil.</p>
+
+            <div class="chat">
+                <div class="chat-head"><span class="avatar" aria-hidden="true">♥</span><div><strong>Dinámicas del Corazón</strong><small><i class="dot"></i> en línea</small></div></div>
+                <div class="msg">
+                    <div class="avatar" aria-hidden="true">G</div>
+                    <div class="bubble">
+                        <h5>1. La transformación social y cultural de la intimidad</h5>
+                        <p class="obra">Giddens (1992)</p>
+                        <p>Históricamente, el amor ha sido considerado un elemento esencial en la vida humana, fundamentado en el afecto, la confianza y la reciprocidad presencial (Giddens, 1992). Sin embargo, las estructuras sociales han evolucionado, trasladando gran parte de la interacción humana hacia entornos mediados por pantallas, donde las reglas del compromiso interpersonal se reconfiguran bajo lógicas de inmediatez.</p>
+                    </div>
+                </div>
+                <div class="msg der">
+                    <div class="avatar" aria-hidden="true">B</div>
+                    <div class="bubble">
+                        <h5>2. El amor líquido y la fragilidad de los vínculos</h5>
+                        <p class="obra">Bauman (2005)</p>
+                        <p>En consonancia con lo anterior, Zygmunt Bauman (2005) introduce el concepto de amor líquido para describir una realidad donde los vínculos afectivos se vuelven inestables, efímeros y altamente frágiles. En la sociedad contemporánea, el temor al compromiso a largo plazo y la facilidad para reemplazar las relaciones con un solo clic reflejan esta volatilidad emocional.</p>
+                    </div>
+                </div>
+                <div class="msg">
+                    <div class="avatar" aria-hidden="true">T</div>
+                    <div class="bubble">
+                        <h5>3. Tecnología, soledad y mediación digital</h5>
+                        <p class="obra">Turkle (2011)</p> <p class="obra">Universidad de Harvard (2020)</p>
+                        <p>Por su parte, Sherry Turkle (2011) sostiene que la tecnología digital ha modificado profundamente la naturaleza de las interacciones humanas. Según la autora, las plataformas y redes sociales generan una “ilusión de cercanía” que, paradójicamente, incrementa la sensación de soledad y altera la capacidad de sostener conversaciones profundas y reales. Complementariamente, estudios recientes de instituciones como la Universidad de Harvard (2020) señalan que el uso excesivo y no regulado de entornos digitales propicia la insatisfacción emocional, los celos y la inestabilidad en las relaciones de pareja juveniles.</p>
+                    </div>
+                </div>
+                <div class="msg"><div class="avatar" aria-hidden="true">♥</div><div class="typing" aria-hidden="true"><i></i><i></i><i></i></div></div>
+            </div>
+        </section>
+
+        <!-- ANTECEDENTES -->
+        <section id="antecedentes" class="seccion container">
+            <div class="titulo-seccion"><h3>Antecedentes</h3></div>
+            <div class="split split-ant">
+                <p class="intro">Para sustentar esta investigación, se han recopilado estudios previos divididos en tres niveles geográficos: local, nacional e internacional, los cuales permiten evidenciar cómo se ha abordado el fenómeno de las relaciones digitales y su impacto emocional.</p>
+                <div class="dato" aria-hidden="true">
+                    <div class="anillo"><strong>72 %</strong></div>
+                    <span>de los jóvenes universitarios siente que las redes sociales aumentan los celos y la desconfianza</span>
+                </div>
+            </div>
+
+            <div class="niveles">
+                <article class="tarjeta nivel o2">
+                    <span class="emoji" aria-hidden="true">📍</span>
+                    <h4 class="titulo">1. Nivel Local (Cali / Universidad Santiago de Cali)</h4>
+                    <dl>
+                        <dt>Título del trabajo</dt><dd>Impacto de las redes sociales en las relaciones amorosas universitarias</dd>
+                        <dt>Autor</dt><dd>Gómez y Rodríguez (2018).</dd>
+                        <dt>Metodología</dt><dd>Investigación de corte cuantitativo-descriptivo aplicada a población universitaria en la ciudad de Cali.</dd>
+                        <dt>Aporte al proyecto</dt><dd>Este antecedente aporta una base estadística local al evidenciar que el 72% de los jóvenes universitarios siente que las redes sociales aumentan los celos y la desconfianza, lo cual contextualiza la problemática directamente en el entorno caleño.</dd>
+                    </dl>
+                </article>
+                <article class="tarjeta nivel o1">
+                    <span class="emoji" aria-hidden="true">🗺️</span>
+                    <h4 class="titulo">2. Nivel Nacional (Colombia)</h4>
+                    <dl>
+                        <dt>Título del trabajo</dt><dd>Las relaciones románticas en la era digital: comunicación, compromiso y empatía</dd>
+                        <dt>Autor</dt><dd>Fernández (2021).</dd>
+                        <dt>Metodología</dt><dd>Estudio empírico de enfoque cualitativo sobre dinámicas de comunicación virtual en jóvenes colombianos.</dd>
+                        <dt>Aporte al proyecto</dt><dd>Aporta la comprensión de cómo la sobreexposición digital reduce la empatía y la comunicación emocional, sirviendo de referencia para analizar el comportamiento de los estudiantes de Producción Transmedia.</dd>
+                    </dl>
+                </article>
+                <article class="tarjeta nivel o3">
+                    <span class="emoji" aria-hidden="true">🌍</span>
+                    <h4 class="titulo">3. Nivel Internacional</h4>
+                    <dl>
+                        <dt>Título del trabajo</dt><dd>Amor líquido: Acerca de la fragilidad de los vínculos humanos</dd>
+                        <dt>Autor</dt><dd>Zygmunt Bauman (2005).</dd>
+                        <dt>Metodología</dt><dd>Análisis sociológico y teórico de las macro-tendencias globales en la modernidad, complementado con estudios de campo internacionales sobre interacción digital y soledad (Turkle, 2011).</dd>
+                        <dt>Aporte al proyecto</dt><dd>Ofrece el marco conceptual internacional indispensable para entender cómo los vínculos afectivos globales se vuelven inestables y temporales debido a la modernidad, y cómo la tecnología crea una ilusión de cercanía que incrementa la soledad.</dd>
+                    </dl>
+                </article>
+            </div>
+        </section>
+
+        <!-- METODOLOGÍA -->
+        <section id="metodologia" class="seccion container">
+            <div class="titulo-seccion"><h3>Metodología</h3></div>
+            <p class="intro">La curiosidad por este proyecto nace de observar cómo nuestra propia generación ha trasladado gran parte de sus vínculos afectivos a las pantallas. Como estudiantes de Producción Transmedia, es documentar el lenguaje y las historias que surgen en la actualidad.</p>
+
+            <div class="metodo">
+                <div class="tarjeta b-tipo">
+                    <h4 class="titulo">Enfoque y Punto de Vista</h4>
+                    <p>Se ha definido un enfoque cualitativo, el cual, según Hernández-Sampieri (2018), permite explorar los fenómenos desde la profundidad de las experiencias de los sujetos. Nuestro interés no es estadístico, sino narrativo; queremos que la investigación sea analizando el amor digital como un nuevo ecosistema de comunicación, partiendo de los relatos individuales para entender una tendencia colectiva (método inductivo).</p>
+                </div>
+                <div class="tarjeta">
+                    <h4 class="titulo">Diseño de la Investigación</h4>
+                    <p>El estudio se basa en un diseño no experimental de corte transversal. Siguiendo los planteamientos de Kerlinger y Lee (2015), en una investigación no experimental no se manipulan las variables de forma deliberada, sino que se observan los fenómenos tal y como se dan en su contexto natural para después analizarlos. En nuestro caso, nos limitaremos a registrar las dinámicas de interacción afectiva que ya ocurren en el entorno digital de los estudiantes, recolectando la información en un momento único de tiempo.</p>
+                </div>
+                <div class="tarjeta b-pob">
+                    <h4 class="titulo">Población</h4>
+                    <p>El estudio se enfoca exclusivamente en los estudiantes de la carrera de Tecnología en Producción Transmedia de la Universidad Santiago de Cali. De manera particular, se trabajará con los compañeros de quinto semestre, quienes participan voluntariamente. Siguiendo a Otzen y Manterola (2017), se utiliza un muestreo por conveniencia, seleccionando a este grupo por ser el entorno inmediato y accesible de los investigadores, garantizando testimonios honestos y cercanos.</p>
+                </div>
+                <div class="tarjeta b-inst">
+                    <h4 class="titulo">El Podcast como Instrumento de Recolección</h4>
+                    <p>Para recolectar estas vivencias, se utiliza la técnica de la entrevista semiestructurada integrada en la producción de un podcast. Como explican Taylor y Bogdan (2015), la entrevista cualitativa es un diálogo entre iguales que busca captar la riqueza de los significados personales. El podcast funciona como un “laboratorio social” donde los estudiantes de quinto semestre pueden relatar sus vivencias con naturalidad, convirtiendo cada sesión de grabación en nuestra fuente principal de datos.</p>
+                    <div class="player" aria-hidden="true"><b>▶</b><div class="onda"><i style="--h:10px"></i><i style="--h:22px"></i><i style="--h:14px"></i><i style="--h:30px"></i><i style="--h:18px"></i><i style="--h:34px"></i><i style="--h:12px"></i><i style="--h:26px"></i><i style="--h:20px"></i><i style="--h:32px"></i><i style="--h:16px"></i><i style="--h:24px"></i><i style="--h:36px"></i><i style="--h:14px"></i><i style="--h:28px"></i><i style="--h:18px"></i><i style="--h:30px"></i><i style="--h:10px"></i><i style="--h:22px"></i><i style="--h:34px"></i><i style="--h:16px"></i><i style="--h:26px"></i><i style="--h:12px"></i><i style="--h:30px"></i><i style="--h:20px"></i><i style="--h:14px"></i><i style="--h:28px"></i><i style="--h:18px"></i><i style="--h:32px"></i><i style="--h:12px"></i><i style="--h:24px"></i><i style="--h:16px"></i></div></div>
+                </div>
+                <div class="tarjeta b-proc span-2">
+                    <h4 class="titulo">Análisis de la Información</h4>
+                    <p>Una vez grabados los episodios, se aplicará un análisis de contenido. Este método, según Braun y Clarke (2021), permite identificar temas recurrentes en los testimonios (como el uso de lenguajes visuales o la gestión de la intimidad). El objetivo es organizar estas categorías para caracterizar cómo se vive el amor hoy, manteniendo una postura neutral y dejando que los resultados hablen por sí mismos a través de las voces de los entrevistados.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PODCAST -->
+        <section id="podcast" class="seccion container">
+            <div class="titulo-seccion"><h3>Propuesta de Innovación y Diseño Tecnológico</h3></div>
+            <p class="intro">Podcast y Ecosistema Transmedia. Para dar cumplimiento al desarrollo práctico del proyecto, la investigación se materializa a través de un dispositivo de mediación transmedia centrado en el formato de podcast y la convergencia digital.</p>
+
+            <div class="serie">
+                <h4 class="pildora">Título de la serie</h4>
+                <p>Dinámicas del Corazón: La extinción del amor en la era digital.</p>
+            </div>
+
+            <div class="grid grid-2 podcast-info">
+                <div class="tarjeta o1">
+                    <span class="emoji" aria-hidden="true">🎙️</span>
+                    <h4 class="titulo">Concepto sonoro y narrativo</h4>
+                    <p>Un espacio de diálogo íntimo y reflexivo que deconstruye las formas en que los jóvenes experimentan el amor, los vínculos y la soledad en la era de las pantallas. El proyecto utiliza el audio como laboratorio social para relatos orgánicos, priorizando la voz y la vivencia estudiantil por encima del dato estadístico.</p>
+                </div>
+                <div class="tarjeta o2">
+                    <span class="emoji" aria-hidden="true">🎯</span>
+                    <h4 class="titulo">Público objetivo / Audiencia (Buyer Persona)</h4>
+                    <p>Estudiantes universitarios de la Universidad Santiago de Cali, específicamente de la carrera de Producción Transmedia, jóvenes entre 19 y 20 años que navegan cotidianamente entre la hiperconectividad digital y la búsqueda de afectos reales.</p>
+                </div>
+            </div>
+
+            <h4 class="subtitulo subtitulo-tabla">Estructura y División de Capítulos de la Serie</h4>
+            <ol class="episodios">
+                <li class="ep">
+                    <b aria-hidden="true">1</b>
+                    <div><h5>Capítulo 1: ¿Cómo se da el amor?</h5><p class="obra">Episodio Piloto - En vivo</p>
+                    <p>Grabado de manera presencial y exclusiva por los tres integrantes del equipo de trabajo frente a los jurados y la audiencia académica como detonante del proyecto.</p></div>
+                </li>
+                <li class="ep">
+                    <b aria-hidden="true">2</b>
+                    <div><h5>Capítulo 2: Interacciones</h5><p>Abordaje de las dinámicas de likes, historias y visualizaciones en los chats.</p></div>
+                </li>
+                <li class="ep">
+                    <b aria-hidden="true">3</b>
+                    <div><h5>Capítulo 3: Apps</h5><p>Análisis del impacto de las aplicaciones de citas y la inmediatez en los vínculos.</p></div>
+                </li>
+                <li class="ep">
+                    <b aria-hidden="true">4</b>
+                    <div><h5>Capítulo 4: Conclusión y reflexión</h5><p>Cierre analítico del proyecto contando con la participación de un psicólogo invitado para debatir sobre la estabilidad emocional.</p></div>
+                </li>
+            </ol>
+
+            <div class="tarjeta dist">
+                <h4 class="titulo">Mapa de Distribución</h4>
+                <p>El proyecto no se limita a la escucha lineal; se expande a través de una página web centralizada (que funcionará como repositorio de los Vlogs y las piezas audiovisuales) y plataformas de distribución multiplataforma (Spotify e iVoox), complementado con interacciones en redes sociales para fomentar la participación activa de la comunidad estudiantil.</p>
+                <div class="plataformas" aria-hidden="true"><span>Página web</span><span>Spotify</span><span>iVoox</span><span>Redes sociales</span></div>
+            </div>
+        </section>
+
+        <!-- MENCIONES PODCAST -->
+        <section id="menciones" class="seccion container">
+            <div class="titulo-seccion"><h3>Menciones podcast</h3></div>
+            <p class="intro">Estos son los episodios de podcast donde se habla de temas relacionados con nuestra investigación. Toca cada miniatura para verlo en YouTube.</p>
+            <div class="grid grid-3 menciones">
+                <a class="mencion" href="https://youtu.be/B0OYoLruH_g?si=CGX-aqYmXQy54xyv" target="_blank" rel="noopener noreferrer" aria-label="Ver en YouTube: Nuestra relación terminó horrible">
+                    <span class="mencion-thumb">
+                        <img src="img/mencion-1.jpg" alt="Miniatura del video: Nuestra relación terminó horrible" loading="lazy">
+                        <span class="mencion-play" aria-hidden="true">▶</span>
+                    </span>
+                    <span class="mencion-info"><strong>Nuestra relación terminó horrible</strong><em>Ver en YouTube ↗</em></span>
+                </a>
+                <a class="mencion" href="https://youtu.be/IbirLTR--q8?si=5lbY_6O7JU9sH3Ck" target="_blank" rel="noopener noreferrer" aria-label="Ver en YouTube: No superaba a su ex">
+                    <span class="mencion-thumb">
+                        <img src="img/mencion-2.jpg" alt="Miniatura del video: No superaba a su ex" loading="lazy">
+                        <span class="mencion-play" aria-hidden="true">▶</span>
+                    </span>
+                    <span class="mencion-info"><strong>No superaba a su ex</strong><em>Ver en YouTube ↗</em></span>
+                </a>
+                <a class="mencion" href="https://youtu.be/HvdpJl6McpY?si=vGpR1yCGyKcYj-Wd" target="_blank" rel="noopener noreferrer" aria-label="Ver en YouTube: Me terminaron por una amiga">
+                    <span class="mencion-thumb">
+                        <img src="img/mencion-3.jpg" alt="Miniatura del video: Me terminaron por una amiga" loading="lazy">
+                        <span class="mencion-play" aria-hidden="true">▶</span>
+                    </span>
+                    <span class="mencion-info"><strong>Me terminaron por una amiga</strong><em>Ver en YouTube ↗</em></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- CONCLUSIÓN -->
+        <section id="conclusion" class="seccion container">
+            <div class="titulo-seccion"><h3>Conclusión</h3></div>
+            <div class="conclusion">
+                <p class="lead">
+                    El estudio realizado con los compañeros de quinto semestre permite concluir que el amor no está desapareciendo, sino que ha migrado hacia un nuevo ecosistema narrativo digital. Como futuros realizadores transmedia, entendemos que las redes sociales ya no son solo herramientas de comunicación, sino el escenario principal donde hoy construimos nuestra identidad y nuestra forma de querer.
+                </p>
+                <p>
+                    En lugar de juzgar estas dinámicas, concluimos que estamos ante un cambio de lenguaje. El reto para nuestra generación en la Universidad Santiago de Cali es aprender a navegar en esta nueva intimidad digital, aceptando que los vínculos en el 2026 ya no solo se viven en persona, sino que se expanden y se narran a través de las pantallas.
+                </p>
+            </div>
+        </section>
+
+        <!-- BIBLIOGRAFÍA -->
+        <section id="bibliografia" class="seccion container">
+            <div class="titulo-seccion"><h3>Bibliografía</h3></div>
+            <ul class="biblio">
+                <li>Bauman, Z. (2005). <em>Amor líquido: Acerca de la fragilidad de los vínculos humanos</em>. Fondo de Cultura Económica.</li>
+                <li>Fernández, L. (2021). Las relaciones románticas en la era digital: comunicación, compromiso y empatía. <em>Revista de Psicología Contemporánea, 15</em>(2), 45–58.</li>
+                <li>Giddens, A. (1992). <em>La transformación de la intimidad: Sexualidad, amor y erotismo en las sociedades modernas</em>. Alianza Editorial.</li>
+                <li>Gómez, P., &amp; Rodríguez, M. (2018). <em>Impacto de las redes sociales en las relaciones amorosas universitarias</em>. Universidad Nacional de Colombia.</li>
+                <li>Han, B. C. (2022). <em>La agonía del Eros</em>. Herder Editorial.</li>
+                <li>Illouz, E. (2019). <em>El fin del amor: una sociología de las relaciones negativas</em>. Katz Editores.</li>
+                <li>Illouz, E. (2020). <em>Capitalismo emocional</em>. Pensamiento Crítico.</li>
+                <li>Roberts, J. A., &amp; David, M. E. (2023). My life has become a digital distraction: Phubbing and relationship satisfaction. <em>Journal of Social Psychology</em>.</li>
+                <li>Scolari, C. A. (2020). <em>Cultura transmedia: Narrativas, fans y comunidades</em>. Editorial UOC.</li>
+                <li>Turkle, S. (2011). <em>Alone Together: Why We Expect More from Technology and Less from Each Other</em>. Basic Books.</li>
+                <li>Twenge, J. M. (2023). <em>Generations: The Real Differences Between Gen Z, Millennials, Baby Boomers, and Silents</em>. Atria Books.</li>
+                <li>Universidad de Harvard. (2020). <em>Estudio sobre el impacto de las redes sociales en las relaciones interpersonales</em>. Departamento de Psicología Social.</li>
+            </ul>
+        </section>
+
+        <!-- AUTORES -->
+        <section class="seccion container">
+            <div class="titulo-seccion"><h3>Autores</h3></div>
+            <div class="grid grid-3">
+                <div class="tarjeta autor a1">
+                    <span class="avatar" aria-hidden="true">D</span>
+                    <p class="nombre-autor">Danna Julieth Campo Fonseca</p>
+                    <p>Tecnólogo en Producción Transmedia</p>
+                </div>
+                <div class="tarjeta autor a2">
+                    <span class="avatar" aria-hidden="true">J</span>
+                    <p class="nombre-autor">Juan Alberto Echeverri García</p>
+                    <p>Tecnólogo en Producción Transmedia</p>
+                </div>
+                <div class="tarjeta autor a3">
+                    <span class="avatar" aria-hidden="true">S</span>
+                    <p class="nombre-autor">Samuel Villamil Gutierrez</p>
+                    <p>Tecnólogo en Producción Transmedia</p>
+                </div>
+            </div>
+            <div class="info-institucion">
+                <p class="institucion">Facultad de Humanidades y Artes, Universidad Santiago de Cali</p>
+                <p>Tecnología en Producción Transmedia</p>
+                <p>Director: Profesora Vanessa Alarcón | Santiago de Cali – Colombia, 2026</p>
+            </div>
+        </section>
+    </main>
+
+    <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+            <span>El amor también se está reescribiendo ♥</span><span>El amor también se está reescribiendo ♥</span><span>El amor también se está reescribiendo ♥</span><span>El amor también se está reescribiendo ♥</span><span>El amor también se está reescribiendo ♥</span><span>El amor también se está reescribiendo ♥</span><span>El amor también se está reescribiendo ♥</span><span>El amor también se está reescribiendo ♥</span>
+        </div>
+    </div>
+
+    <footer id="pie">
+        <p class="titulo-footer">Dinámicas del Corazón © 2026</p>
+        <p>La extinción del amor en la era digital</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const mainMenu = document.querySelector('#menu-principal');
+        const closeSubmenus = (except) => document.querySelectorAll('.has-submenu.is-open').forEach((item) => {
+            if (item !== except) {
+                item.classList.remove('is-open');
+                item.querySelector('.submenu-toggle')?.setAttribute('aria-expanded', 'false');
+            }
+        });
+
+        menuToggle?.addEventListener('click', () => {
+            const isOpen = menuToggle.getAttribute('aria-expanded') === 'true';
+            menuToggle.setAttribute('aria-expanded', String(!isOpen));
+            mainMenu.classList.toggle('is-open', !isOpen);
+        });
+
+        document.querySelectorAll('.submenu-toggle').forEach((toggle) => {
+            toggle.addEventListener('click', (event) => {
+                event.preventDefault();
+                const item = toggle.closest('.has-submenu');
+                const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+                closeSubmenus(item);
+                toggle.setAttribute('aria-expanded', String(!isOpen));
+                item.classList.toggle('is-open', !isOpen);
+            });
+        });
+
+        document.querySelectorAll('#menu-principal a').forEach((link) => {
+            link.addEventListener('click', () => {
+                mainMenu.classList.remove('is-open');
+                menuToggle?.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        document.addEventListener('click', (event) => {
+            if (!event.target.closest('.has-submenu')) closeSubmenus();
+        });
+
+        const barra = document.querySelector('.progreso span');
+        addEventListener('scroll', () => {
+            const d = document.documentElement;
+            barra.style.transform = `scaleX(${d.scrollTop / (d.scrollHeight - d.clientHeight)})`;
+        }, { passive: true });
+
+        document.querySelectorAll('.like').forEach((btn) => btn.addEventListener('click', () => {
+            btn.setAttribute('aria-pressed', String(btn.getAttribute('aria-pressed') !== 'true'));
+        }));
+    </script>
+</body>
+</html>
