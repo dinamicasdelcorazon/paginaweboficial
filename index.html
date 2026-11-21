@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinámicas del Corazón: vínculos afectivos mediados digitalmente en estudiantes de Transmedia USC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="progreso" aria-hidden="true"><span></span></div>
+    <header id="encabezado" class="site-header">
+        <nav class="nav-shell" aria-label="Navegación principal">
+            <a class="brand" href="#inicio" aria-label="Volver al inicio">
+                <span class="logo" aria-hidden="true">♥</span>
+                <span class="logo-lockup">
+                    <span class="logo-text">Dinámicas del Corazón</span>
+                    <span class="logo-kicker">Investigación transmedia</span>
+                </span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+                <span></span><span></span><span></span>
+                <span class="sr-only">Abrir menú</span>
+            </button>
+
+            <div id="menu-principal" class="nav-links">
+                <div class="nav-item has-submenu">
+                    <a href="#problema">El problema</a>
+                    <button class="submenu-toggle" type="button" aria-expanded="false" aria-label="Abrir submenú de El problema">⌄</button>
+                    <ul class="submenu">
+                        <li><a href="#problema">Planteamiento del problema</a></li>
+                        <li><a href="#pregunta">Pregunta problema</a></li>
+                        <li><a href="#justificacion">Justificación</a></li>
+                    </ul>
+                </div>
+                <div class="nav-item has-submenu">
+                    <a href="#objetivos">La investigación</a>
+                    <button class="submenu-toggle" type="button" aria-expanded="false" aria-label="Abrir submenú de La investigación">⌄</button>
+                    <ul class="submenu">
+                        <li><a href="#objetivos">Objetivos</a></li>
+                        <li><a href="#marco">Marco teórico</a></li>
+                        <li><a href="#antecedentes">Antecedentes</a></li>
+                        <li><a href="#metodologia">Metodología</a></li>
+                        <li><a href="#etica">Consideraciones éticas</a></li>
+                    </ul>
+                </div>
+                <div class="nav-item has-submenu">
+                    <a href="#resultados">Resultados</a>
+                    <button class="submenu-toggle" type="button" aria-expanded="false" aria-label="Abrir submenú de Resultados">⌄</button>
+                    <ul class="submenu">
+                        <li><a href="#resultados">Encuesta</a></li>
+                        <li><a href="#analisis">Análisis</a></li>
+                        <li><a href="#cumplimiento">Cumplimiento de objetivos</a></li>
+                    </ul>
+                </div>
+                <div class="nav-item has-submenu">
+                    <a href="#podcast">El podcast</a>
+                    <button class="submenu-toggle" type="button" aria-expanded="false" aria-label="Abrir submenú de El podcast">⌄</button>
+                    <ul class="submenu">
+                        <li><a href="#podcast">Prototipo</a></li>
+                        <li><a href="#menciones">Episodios</a></li>
+                    </ul>
+                </div>
+                <div class="nav-item has-submenu">
+                    <a href="#conclusion">Cierre</a>
+                    <button class="submenu-toggle" type="button" aria-expanded="false" aria-label="Abrir submenú de Cierre">⌄</button>
+                    <ul class="submenu">
+                        <li><a href="#limitaciones">Limitaciones</a></li>
+                        <li><a href="#conclusion">Conclusiones</a></li>
+                        <li><a href="#bibliografia">Referencias</a></li>
+                        <li><a href="#anexo">Anexo</a></li>
+                    </ul>
+                </div>
+                <a class="nav-link nav-download" href="14_PrOrWeb.pdf" download>PDF ↗</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="contenido-principal">
+        <!-- HERO -->
+        <section id="inicio" class="hero">
+            <div class="hero-video" aria-hidden="true">
+                <video autoplay muted loop playsinline>
+                    <source src="amor-digital-redes.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="hero-overlay" aria-hidden="true"></div>
+            <span class="flota f1" aria-hidden="true">♥</span><span class="flota f2" aria-hidden="true">♥</span><span class="flota f3" aria-hidden="true">♥</span>
+            <div class="container hero-content">
+                <div class="hero-copy">
+                    <p class="chips"><span class="chip">Investigación-creación</span><span class="chip">Cali, 2026</span><span class="chip chip-tag">#AmorDigital</span></p>
+                    <h1 class="titulo-principal">Dinámicas del Corazón</h1>
+                    <p class="descripcion">
+                        Vínculos afectivos mediados digitalmente en estudiantes de Transmedia USC: cómo los estudiantes de quinto semestre de Tecnología en Producción Transmedia de la Universidad Santiago de Cali describen y viven sus relaciones afectivas en entornos digitales.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#resumen">Leer el resumen ↓</a>
+                        <a class="btn btn-ghost" href="#resultados">Ver resultados ↗</a>
+                        <a class="btn btn-ghost" href="14_PrOrWeb.pdf" download>Descargar PDF ↓</a>
+                    </div>
+                </div>
+                <div class="hero-meta" aria-label="Datos principales de la investigación">
+                    <div class="sticker s1"><span class="notif-ico" aria-hidden="true">📝</span><div><strong>25 de 29</strong><span>estudiantes encuestados (86,2 %)</span></div><em aria-hidden="true">ahora</em></div>
+                    <div class="sticker s2"><span class="notif-ico" aria-hidden="true">🎙️</span><div><strong>3 episodios</strong><span>de pódcast finalizados (de 4)</span></div><em aria-hidden="true">2 min</em></div>
+                    <div class="sticker s3"><span class="notif-ico" aria-hidden="true">📍</span><div><strong>Cualitativo</strong><span>alcance descriptivo · Cali</span></div><em aria-hidden="true">5 min</em></div>
+                    <div class="typing" aria-hidden="true"><i></i><i></i><i></i></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESUMEN -->
+        <section id="resumen" class="seccion container">
+            <div class="titulo-seccion"><h3>Resumen</h3></div>
+            <div class="split split-resumen">
+                <div class="prosa">
+                    <p class="lead">Este trabajo de investigación-creación describe las percepciones y prácticas de los estudiantes de quinto semestre de Tecnología en Producción Transmedia de la Universidad Santiago de Cali sobre sus relaciones afectivas en entornos digitales.</p>
+                    <p>Se adoptó un enfoque cualitativo, de alcance descriptivo y diseño no experimental y transversal, con muestreo no probabilístico por conveniencia. Se aplicó una encuesta anónima a 25 de los 29 estudiantes del semestre (86,2 %) y se grabaron tres conversaciones semiestructuradas para un pódcast participativo, que sirvió como instrumento de recolección de testimonios y como prototipo de producto transmedia.</p>
+                    <p>Los hallazgos son compatibles con los planteamientos de Han, Illouz, Bauman y Turkle; sin embargo, por el tamaño de la muestra y el alcance descriptivo, no permiten establecer causalidad ni generalizar. Se desarrolló una serie de pódcast de cuatro episodios (tres finalizados) y este sitio web. Quedan pendientes el análisis completo de las transcripciones, la formalización de los consentimientos y la ampliación de la muestra.</p>
+                    <p class="palabras"><strong>Palabras clave:</strong> relaciones afectivas, redes sociales, amor líquido, pódcast participativo, narrativa transmedia</p>
+                </div>
+                <div class="cifras" aria-label="Cifras principales de la encuesta">
+                    <div class="cifra"><strong>80 %</strong><span>conoce a sus parejas de manera presencial</span></div>
+                    <div class="cifra"><strong>88 %</strong><span>prefiere resolver los conflictos en persona</span></div>
+                    <div class="cifra"><strong>56 %</strong><span>cree que las redes complican construir una relación seria</span></div>
+                    <div class="cifra"><strong>72 %</strong><span>percibe las relaciones actuales como «desechables»</span></div>
+                    <div class="cifra"><strong>76 %</strong><span>se ha sentido solo(a) estando conectado(a)</span></div>
+                    <div class="cifra"><strong>11 de 24</strong><span>mencionó la inseguridad y la comparación como principal desafío</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PLANTEAMIENTO DEL PROBLEMA -->
+        <section id="problema" class="seccion container">
+            <div class="titulo-seccion"><h3>Planteamiento del Problema</h3></div>
+
+            <div class="grid grid-2">
+                <div class="tarjeta tarjeta-antes">
+                    <span class="emoji" aria-hidden="true">✉️</span>
+                    <h4 class="titulo">Tradicionalmente</h4>
+                    <p>Las relaciones amorosas se desarrollaron en el mundo físico. Durante la mayor parte del siglo XX, el contacto y la comunicación directa fueron clave.</p>
+                </div>
+                <div class="tarjeta tarjeta-ahora">
+                    <span class="emoji" aria-hidden="true">📲</span>
+                    <h4 class="titulo">En la actualidad</h4>
+                    <p>
+                        Hoy vivimos con plataformas digitales para conocer a quien nos gusta, cortejarlo y mantener la relación. Desde la filosofía se plantea que, con la saturación y el consumo de imágenes, la otredad se erosiona (Han, 2012/2014); desde la sociología, que las emociones se entrelazan con la lógica económica (Illouz, 2007) y que la libertad de elección facilita no comprometerse o romper (Illouz, 2019/2020).
+                    </p>
+                    <div class="reacts" aria-hidden="true"><span>♥</span><span>💬</span><span>↗</span></div>
+                </div>
+            </div>
+            <div class="tarjeta hoy">
+                <h4 class="titulo">Lo que dicen los estudios</h4>
+                <div class="prosa">
+                    <p>Los lazos humanos se vuelven más frágiles (Bauman, 2003/2005); la tecnología ofrece compañía sin las obligaciones de una relación real (Turkle, 2011); y las generaciones más jóvenes se caracterizan por el uso intensivo de teléfonos inteligentes y redes sociales (Twenge, 2023).</p>
+                    <p>También hay evidencia empírica: cuanto más se usa Facebook, más celos hay en la pareja (Muise et al., 2009; 308 estudiantes universitarios), y cuando la pareja ignora a la otra por el celular hay más conflicto y menos satisfacción (Roberts y David, 2016; 453 adultos en EE. UU.). En nuestro entorno, un estudio con seis jóvenes de Cali y Jamundí encontró que Instagram y WhatsApp tienen su propio lenguaje afectivo, pero también generan tensiones de desconfianza (Zúñiga Escobar, 2018).</p>
+                </div>
+            </div>
+            <div class="tarjeta hoy vacio">
+                <h4 class="titulo">El vacío que aborda este trabajo</h4>
+                <div class="prosa">
+                    <p>No se encontraron estudios sobre estudiantes de Producción Transmedia de la Universidad Santiago de Cali, ni estudios que usen pódcast participativos para obtener y devolver testimonios. Estos estudiantes se forman como productores de contenido multiplataforma, por lo que tienen una relación personal y profesional con los entornos digitales.</p>
+                    <p>Hasta ahora no se sabía cómo describen y viven ellos mismos sus relaciones afectivas en entornos digitales, y no existía un espacio para que lo cuenten.</p>
+                </div>
+            </div>
+
+            <div id="pregunta" class="pregunta-problema">
+                <h4 class="pildora">Pregunta Problema</h4>
+                <p>
+                    ¿Cómo describen los estudiantes de quinto semestre de Tecnología en Producción Transmedia de la Universidad Santiago de Cali las formas de vivir y mantener relaciones afectivas en entornos digitales?
+                </p>
+                <p class="nota-pregunta">La población es el semestre al que pertenecen los autores (que cursaba quinto semestre durante la recolección de datos).</p>
+                <div class="composer" aria-hidden="true"><span>Escribe tu respuesta…</span><b>➤</b></div>
+            </div>
+        </section>
+
+        <!-- JUSTIFICACIÓN -->
+        <section id="justificacion" class="seccion container">
+            <div class="split">
+                <div class="titulo-seccion"><h3>Justificación</h3></div>
+                <div class="prosa">
+                    <p class="lead">
+                        El amor es uno de los aspectos centrales de la experiencia humana y depende de la cultura y la tecnología (Giddens, 1992/1995). Hoy muchos jóvenes usan las redes sociales como espacio para expresar afecto y buscar reconocimiento.
+                    </p>
+                    <p>
+                        Hay evidencia de que las redes se relacionan con la inseguridad, los celos y la distracción en la pareja (Muise et al., 2009; Roberts y David, 2016). Por eso es importante saber cómo lo experimentan los estudiantes.
+                    </p>
+                    <p>
+                        <strong>Justificación académica.</strong> Aporta datos descriptivos de una población poco estudiada en nuestro entorno, vinculados a los enfoques de Han, Illouz, Bauman y Turkle. No es una prueba de causalidad.
+                    </p>
+                    <p>
+                        <strong>Justificación social y de producto.</strong> Además del documento, se produjo una serie de pódcast participativos para que los testimonios recopilados puedan ser devueltos a la comunidad estudiantil: un prototipo transmedia.
+                    </p>
+                </div>
+            </div>
+            <div class="grid grid-3 tiles">
+                <div class="tarjeta o1">
+                    <span class="emoji" aria-hidden="true">🎓</span>
+                    <h5>Inserción institucional</h5>
+                    <p>Pertenece a la Línea 2 de investigación, Educomunicación, cultura y TIC, de la Facultad de Humanidades y Artes, y se enmarca en la asignatura Tendencias de las humanidades en el mundo contemporáneo.</p>
+                </div>
+                <div class="tarjeta o2">
+                    <span class="emoji" aria-hidden="true">🩺</span>
+                    <h5>ODS 3: Salud y bienestar</h5>
+                    <p>Se relaciona con el bienestar emocional y la salud mental, y abre un diálogo sobre cómo los entornos digitales afectan las relaciones afectivas de los jóvenes.</p>
+                </div>
+                <div class="tarjeta o4">
+                    <span class="emoji" aria-hidden="true">🎧</span>
+                    <h5>Viabilidad técnica</h5>
+                    <p>Es un programa de producción audiovisual y sonora. Se contó con el apoyo de la radio de la USC (donde se grabaron los episodios) y se editó en Adobe Premiere Pro. La población es accesible (29 personas), los instrumentos son cortos y tres de los cuatro episodios ya están grabados y publicados.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- OBJETIVOS -->
+        <section id="objetivos" class="seccion container">
+            <div class="titulo-seccion"><h3>Objetivos</h3></div>
+
+            <h4 class="subtitulo">Objetivo General</h4>
+            <div class="tarjeta objetivo-general mb-12">
+                <p>
+                    Describir las percepciones y prácticas de los estudiantes de quinto semestre de Tecnología en Producción Transmedia de la Universidad Santiago de Cali sobre sus relaciones afectivas en entornos digitales, mediante una encuesta y una serie de pódcast participativos.
+                </p>
+            </div>
+
+            <h4 class="subtitulo">Objetivos Específicos</h4>
+            <div class="grid grid-2">
+                <article class="tarjeta obj o1">
+                    <div class="post-head"><span class="avatar" aria-hidden="true">📱</span><span>@objetivo_1</span></div>
+                    <h5>Caracterizar</h5>
+                    <p>Caracterizar las percepciones de los estudiantes del semestre sobre el papel que juegan las redes sociales en la iniciación, la confianza y el mantenimiento de sus relaciones afectivas.</p>
+                    <div class="post-foot"><button class="like" type="button" aria-pressed="false" aria-label="Me gusta: Caracterizar"></button><span aria-hidden="true">💬 ↗</span></div>
+                </article>
+                <article class="tarjeta obj o2">
+                    <div class="post-head"><span class="avatar" aria-hidden="true">📚</span><span>@objetivo_2</span></div>
+                    <h5>Contrastar</h5>
+                    <p>Contrastar estas percepciones con los enfoques de Han, Illouz, Bauman y Turkle sobre la intimidad amorosa en contextos digitales.</p>
+                    <div class="post-foot"><button class="like" type="button" aria-pressed="false" aria-label="Me gusta: Contrastar"></button><span aria-hidden="true">💬 ↗</span></div>
+                </article>
+                <article class="tarjeta obj o3">
+                    <div class="post-head"><span class="avatar" aria-hidden="true">📝</span><span>@objetivo_3</span></div>
+                    <h5>Recolectar y analizar</h5>
+                    <p>Recolectar y analizar testimonios: una encuesta y tres episodios de pódcast con estudiantes del semestre.</p>
+                    <div class="post-foot"><button class="like" type="button" aria-pressed="false" aria-label="Me gusta: Recolectar y analizar"></button><span aria-hidden="true">💬 ↗</span></div>
+                </article>
+                <article class="tarjeta obj o4">
+                    <div class="post-head"><span class="avatar" aria-hidden="true">🎙️</span><span>@objetivo_4</span></div>
+                    <h5>Diseñar y producir</h5>
+                    <p>Diseñar y producir una serie de pódcast participativos como dispositivo de mediación e innovación transmedia que muestre los testimonios y hallazgos de este estudio.</p>
+                    <div class="post-foot"><button class="like" type="button" aria-pressed="false" aria-label="Me gusta: Diseñar y producir"></button><span aria-hidden="true">💬 ↗</span></div>
+                </article>
+            </div>
+
+            <h4 class="subtitulo subtitulo-tabla">Tabla 1. Justificación taxonómica de los objetivos específicos</h4>
+            <div class="tabla-wrap">
+                <table>
+                    <thead>
+                        <tr><th scope="col">N.º</th><th scope="col">Verbo</th><th scope="col">Nivel taxonómico</th><th scope="col">Justificación en el proyecto</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><th scope="row">1</th><td><span class="verbo">Caracterizar</span></td><td>Comprender</td><td>Permite describir cómo los estudiantes perciben sus relaciones afectivas en entornos digitales sin atribuir causas.</td></tr>
+                        <tr><th scope="row">2</th><td><span class="verbo">Contrastar</span></td><td>Analizar</td><td>Requiere relacionar los propios datos con categorías teóricas del marco.</td></tr>
+                        <tr><th scope="row">3</th><td><span class="verbo">Recolectar y analizar</span></td><td>Aplicar y analizar</td><td>Es aplicar los instrumentos (encuesta y pódcast) y organizar la información en categorías.</td></tr>
+                        <tr><th scope="row">4</th><td><span class="verbo">Diseñar y producir</span></td><td>Crear</td><td>Es el nivel más alto: se construye un producto real (la serie de pódcast participativos).</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- MARCO TEÓRICO -->
+        <section id="marco" class="seccion container">
+            <div class="titulo-seccion"><h3>Marco Teórico</h3></div>
+            <p class="intro">El proyecto se apoya en cinco ejes: la intimidad en la modernidad, el capitalismo emocional, la erosión del Eros en la era de la exposición, la tecnología como mediadora de la intimidad y las narrativas transmedia.</p>
+
+            <div class="chat">
+                <div class="chat-head"><span class="avatar" aria-hidden="true">♥</span><div><strong>Dinámicas del Corazón</strong><small><i class="dot"></i> en línea</small></div></div>
+                <div class="msg">
+                    <div class="avatar" aria-hidden="true">G</div>
+                    <div class="bubble">
+                        <h5>1. Amor, intimidad y modernidad</h5>
+                        <p class="obra">Giddens (1992/1995)</p> <p class="obra">Bauman (2003/2005)</p>
+                        <p>La intimidad moderna se mueve hacia la «relación pura», que dura mientras ambos estén satisfechos (Giddens, 1992/1995). En <em>Amor líquido</em>, Bauman (2003/2005) habla de las consecuencias de este tipo de vínculo: relaciones frágiles y provisionales, y un compromiso difícil de sostener. Es una visión del amor como experiencia históricamente situada.</p>
+                    </div>
+                </div>
+                <div class="msg der">
+                    <div class="avatar" aria-hidden="true">I</div>
+                    <div class="bubble">
+                        <h5>2. Capitalismo emocional y relaciones negativas</h5>
+                        <p class="obra">Illouz (2007)</p> <p class="obra">Illouz (2019/2020)</p>
+                        <p>Illouz (2007) plantea un modelado mutuo entre la cultura económica y la vida emocional (capitalismo emocional). En <em>El fin del amor</em> (2019/2020) analiza las «relaciones negativas», es decir, las formas de no comprometerse o romper, ligadas a una cultura que facilita pasar rápido de una elección a otra. De ahí vienen las preguntas del trabajo sobre relaciones «desechables» y sobre la validación pública del afecto.</p>
+                    </div>
+                </div>
+                <div class="msg">
+                    <div class="avatar" aria-hidden="true">H</div>
+                    <div class="bubble">
+                        <h5>3. Eros, exposición y digitalización</h5>
+                        <p class="obra">Han (2012/2014)</p>
+                        <p>Han (2012/2014) argumenta que, en el neoliberalismo y su lógica del rendimiento y la exposición, la otredad (condición del Eros) se erosiona: la experiencia amorosa se reduce al consumo de imágenes. Es una tesis filosófica, no una hipótesis verificable; aquí se usa como marco de lectura de lo que los participantes dicen sobre exposición, comparación y estándares en redes sociales.</p>
+                    </div>
+                </div>
+                <div class="msg der">
+                    <div class="avatar" aria-hidden="true">T</div>
+                    <div class="bubble">
+                        <h5>4. Tecnología e intimidad</h5>
+                        <p class="obra">Turkle (2011)</p> <p class="obra">Roberts y David (2016)</p> <p class="obra">Muise et al. (2009)</p>
+                        <p>Turkle (2011) sostiene que podemos esperar más de la tecnología que de los demás: las conexiones digitales pueden dar una ilusión de compañía sin obligaciones de relación. Empíricamente, el <em>phubbing</em> de pareja (ignorar a la pareja por el celular) se ha relacionado con conflicto y menor satisfacción (Roberts y David, 2016), y el uso de redes sociales con mayor vigilancia y celos (Muise et al., 2009). Estos estudios no establecen causalidad.</p>
+                    </div>
+                </div>
+                <div class="msg">
+                    <div class="avatar" aria-hidden="true">S</div>
+                    <div class="bubble">
+                        <h5>5. Narrativas transmedia y pódcast como dispositivo de mediación</h5>
+                        <p class="obra">Scolari (2013)</p>
+                        <p>Las narrativas transmedia atraviesan medios y plataformas, con un papel activo de parte de los consumidores en la expansión (Scolari, 2013, p. 46). No basta con replicar contenido: cada plataforma debe aportar algo distinto a la historia, y la participación de la audiencia es importante. Aquí el pódcast es un dispositivo de mediación: un espacio de conversación entre pares donde se generan y devuelven testimonios a la comunidad. Scolari (2013) señala que un proyecto transmedia necesita un plan global («biblia») que asegure la coherencia; por eso se incluye la ficha técnica del producto.</p>
+                    </div>
+                </div>
+                <div class="msg"><div class="avatar" aria-hidden="true">♥</div><div class="typing" aria-hidden="true"><i></i><i></i><i></i></div></div>
+            </div>
+        </section>
+
+        <!-- ANTECEDENTES -->
+        <section id="antecedentes" class="seccion container">
+            <div class="titulo-seccion"><h3>Antecedentes</h3></div>
+            <div class="split split-ant">
+                <p class="intro">Se revisaron cuatro trabajos, encontrados en bases de datos académicas o repositorios, que sirven de referencia a nivel internacional, nacional y local. Ninguno se centra en estudiantes de Producción Transmedia ni usa un pódcast participativo.</p>
+                <div class="dato">
+                    <div class="anillo" aria-hidden="true"><strong>72 %</strong></div>
+                    <span>de los encuestados en este estudio percibe sus relaciones actuales como «desechables» (n = 25)</span>
+                </div>
+            </div>
+
+            <div class="niveles niveles-4">
+                <article class="tarjeta nivel o3">
+                    <span class="emoji" aria-hidden="true">🌍</span>
+                    <h4 class="titulo">Muise et al. (2009)</h4>
+                    <dl>
+                        <dt>Trabajo</dt><dd><em>More information than you ever wanted: Does Facebook bring out the green-eyed monster of jealousy?</em> Universidad de Guelph, Canadá.</dd>
+                        <dt>Metodología</dt><dd>Encuesta anónima en línea a 308 estudiantes universitarios.</dd>
+                        <dt>Aporte al proyecto</dt><dd>Asocia el uso de Facebook con más celos en la pareja y propone un bucle de retroalimentación entre información ambigua y mayor uso. Sirve de referencia para la pregunta sobre celos y desconfianza.</dd>
+                    </dl>
+                </article>
+                <article class="tarjeta nivel o1">
+                    <span class="emoji" aria-hidden="true">📱</span>
+                    <h4 class="titulo">Roberts y David (2016)</h4>
+                    <dl>
+                        <dt>Trabajo</dt><dd><em>My life has become a major distraction from my cell phone: Partner phubbing and relationship satisfaction among romantic partners.</em> Estados Unidos.</dd>
+                        <dt>Metodología</dt><dd>Dos encuestas a 453 adultos en total.</dd>
+                        <dt>Aporte al proyecto</dt><dd>Relaciona el <em>phubbing</em> de pareja con conflicto y menor satisfacción. Dialoga con las respuestas abiertas de la encuesta sobre atención y celular.</dd>
+                    </dl>
+                </article>
+                <article class="tarjeta nivel o2">
+                    <span class="emoji" aria-hidden="true">🗺️</span>
+                    <h4 class="titulo">Bernal Guzmán (2024)</h4>
+                    <dl>
+                        <dt>Trabajo</dt><dd><em>Relación entre redes sociales, celos y dependencia emocional en jóvenes de 18 a 30 años.</em> Universidad Cooperativa de Colombia.</dd>
+                        <dt>Metodología</dt><dd>Alcance correlacional cuantitativo, con 98 participantes y escalas estandarizadas.</dd>
+                        <dt>Aporte al proyecto</dt><dd>Informa una relación positiva y significativa entre uso excesivo de redes, celos y dependencia emocional. Contrasta con este proyecto, que es descriptivo y cualitativo y no busca correlaciones.</dd>
+                    </dl>
+                </article>
+                <article class="tarjeta nivel o4">
+                    <span class="emoji" aria-hidden="true">📍</span>
+                    <h4 class="titulo">Zúñiga Escobar (2018)</h4>
+                    <dl>
+                        <dt>Trabajo</dt><dd><em>¿Bien y tú? Construcción del vínculo afectivo de pareja con la intermediación de las aplicaciones virtuales Instagram y WhatsApp.</em> Universidad de San Buenaventura, Cali.</dd>
+                        <dt>Metodología</dt><dd>Estudio descriptivo de tratamiento cualitativo interpretativo con seis jóvenes de 20 a 22 años de la conurbación Cali–Jamundí.</dd>
+                        <dt>Aporte al proyecto</dt><dd>Es el antecedente más cercano en territorio y enfoque: las aplicaciones crean su propio lenguaje afectivo y también tensiones por desconfianza. Este proyecto amplía el tema a estudiantes de Producción Transmedia y añade un producto sonoro.</dd>
+                    </dl>
+                </article>
+            </div>
+        </section>
+
+        <!-- METODOLOGÍA -->
+        <section id="metodologia" class="seccion container">
+            <div class="titulo-seccion"><h3>Metodología</h3></div>
+
+            <div class="metodo">
+                <div class="tarjeta b-tipo">
+                    <h4 class="titulo">Enfoque, alcance y diseño</h4>
+                    <p>Se optó por un enfoque cualitativo (Hernández-Sampieri y Mendoza, 2018) para comprender cómo los participantes viven y describen sus relaciones afectivas, complementado con una encuesta reportada de forma descriptiva (frecuencias y porcentajes). No se realizaron pruebas estadísticas ni se generaliza a otras poblaciones: el alcance es descriptivo.</p>
+                    <p>El diseño es no experimental y transversal: siguiendo a Kerlinger y Lee (2002), no se manipulan variables y los fenómenos se observan en su contexto natural. La encuesta se aplicó entre el 13 y el 15 de abril de 2026; los episodios se grabaron el 28 de octubre.</p>
+                </div>
+                <div class="tarjeta b-pob">
+                    <h4 class="titulo">Población y muestra</h4>
+                    <p>La población son los 29 estudiantes del semestre de Tecnología en Producción Transmedia de la USC al que pertenecen los autores (quinto semestre en 2026-1). Se usó un muestreo no probabilístico por conveniencia (Otzen y Manterola, 2017) con participación voluntaria. La muestra la forman 25 encuestados (86,2 % de la población) y tres participantes del pódcast, quienes también respondieron la encuesta.</p>
+                    <p>Criterios de inclusión: pertenecer al semestre y participar voluntariamente. En el pódcast, aceptar que la conversación se grabe y se publique; la encuesta es anónima.</p>
+                </div>
+                <div class="tarjeta b-inst">
+                    <h4 class="titulo">Instrumento 1: encuesta anónima</h4>
+                    <p>Formulario en línea de nueve preguntas (siete cerradas, una escala de 1 a 5 y una abierta; ver Anexo A). Se difundió por WhatsApp y en clase, y los datos se guardaron en una hoja de cálculo.</p>
+                </div>
+                <div class="tarjeta b-inst">
+                    <h4 class="titulo">Instrumento 2: conversaciones del pódcast</h4>
+                    <p>Cada episodio es una conversación semiestructurada (Taylor y Bogdan, 1987) con un estudiante del semestre, centrada en un eje temático y de entre 25 y 40 minutos. No se elaboró una guía escrita de preguntas (limitación). El pódcast es a la vez instrumento de recolección y producto transmedia; el objeto de análisis son los testimonios, no el producto.</p>
+                    <div class="player" aria-hidden="true"><b>▶</b><div class="onda"><i style="--h:10px"></i><i style="--h:22px"></i><i style="--h:14px"></i><i style="--h:30px"></i><i style="--h:18px"></i><i style="--h:34px"></i><i style="--h:12px"></i><i style="--h:26px"></i><i style="--h:20px"></i><i style="--h:32px"></i><i style="--h:16px"></i><i style="--h:24px"></i><i style="--h:36px"></i><i style="--h:14px"></i><i style="--h:28px"></i><i style="--h:18px"></i><i style="--h:30px"></i><i style="--h:10px"></i><i style="--h:22px"></i><i style="--h:34px"></i><i style="--h:16px"></i><i style="--h:26px"></i><i style="--h:12px"></i><i style="--h:30px"></i><i style="--h:20px"></i><i style="--h:14px"></i><i style="--h:28px"></i><i style="--h:18px"></i><i style="--h:32px"></i><i style="--h:12px"></i><i style="--h:24px"></i><i style="--h:16px"></i></div></div>
+                </div>
+                <div class="tarjeta b-proc span-2">
+                    <h4 class="titulo">Análisis y criterios de interpretación</h4>
+                    <p>Los datos de la encuesta se analizaron con frecuencias y porcentajes. Las respuestas abiertas se agruparon por tema, y cada una se ubicó en una sola categoría principal. Los textos de los episodios se analizarán mediante análisis temático (Braun y Clarke, 2021): familiarización con los textos, codificación inicial, generación de temas, revisión, definición y redacción.</p>
+                    <p>Un tema se considerará recurrente si aparece en al menos dos de los tres episodios, o en varias respuestas abiertas de la encuesta. Los hallazgos son percepciones de este grupo y no se generalizan más allá de la muestra.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ÉTICA -->
+        <section id="etica" class="seccion container">
+            <div class="titulo-seccion"><h3>Consideraciones Éticas</h3></div>
+            <p class="intro">Los testimonios sobre relaciones afectivas pueden ser íntimos y sensibles por naturaleza, por lo que se han tenido en cuenta la participación voluntaria y la confidencialidad.</p>
+            <div class="grid grid-3">
+                <div class="tarjeta o1">
+                    <span class="emoji" aria-hidden="true">✍️</span>
+                    <h5>Consentimiento informado</h5>
+                    <p>Los tres participantes del pódcast fueron informados del propósito de la grabación y dieron su consentimiento de forma verbal. La encuesta es voluntaria y anónima.</p>
+                </div>
+                <div class="tarjeta o2">
+                    <span class="emoji" aria-hidden="true">↩️</span>
+                    <h5>Retiro voluntario</h5>
+                    <p>Los participantes pueden solicitar en cualquier momento el retiro de su episodio, o de partes de este, escribiendo a <a class="enlace" href="mailto:dinamicasdelcorazon@gmail.com">dinamicasdelcorazon@gmail.com</a>.</p>
+                </div>
+                <div class="tarjeta o4">
+                    <span class="emoji" aria-hidden="true">🔒</span>
+                    <h5>Confidencialidad</h5>
+                    <p>La encuesta no recoge datos que identifiquen a los participantes. Queda pendiente formalizar por escrito los consentimientos del pódcast.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESULTADOS -->
+        <section id="resultados" class="seccion container">
+            <div class="titulo-seccion"><h3>Resultados de la Encuesta</h3></div>
+            <p class="intro">Elaboración propia a partir de la hoja de respuestas del formulario (n = 25). Los porcentajes están redondeados al entero más cercano.</p>
+
+            <div class="figuras">
+                <figure class="tarjeta figura">
+                    <img src="img/figura-1.png" alt="Figura 1. Principal forma de conocer personas con interés romántico: cara a cara 20 respuestas (80 %); redes sociales 5 (20 %)." loading="lazy" width="1344" height="614">
+                    <figcaption><strong>Nota.</strong> Pregunta 1 de la encuesta.</figcaption>
+                </figure>
+                <figure class="tarjeta figura">
+                    <img src="img/figura-2.png" alt="Figura 2. Redes sociales y construcción de una relación seria: las complican 14 respuestas (56 %); las facilitan 6 (24 %); no influyen significativamente 5 (20 %)." loading="lazy" width="1344" height="614">
+                    <figcaption><strong>Nota.</strong> Pregunta 2 de la encuesta.</figcaption>
+                </figure>
+                <figure class="tarjeta figura">
+                    <img src="img/figura-3.png" alt="Figura 3. Importancia de que la pareja publique fotos o dé me gusta: muy importante 12 (48 %); poco importante 9 (36 %); sin importancia 4 (16 %)." loading="lazy" width="1344" height="614">
+                    <figcaption><strong>Nota.</strong> Pregunta 3 de la encuesta.</figcaption>
+                </figure>
+                <figure class="tarjeta figura">
+                    <img src="img/figura-4.png" alt="Figura 4. Relaciones actuales percibidas como desechables: sí, frecuentemente 18 (72 %); a veces 6 (24 %); no 1 (4 %)." loading="lazy" width="1344" height="614">
+                    <figcaption><strong>Nota.</strong> Pregunta 4 de la encuesta.</figcaption>
+                </figure>
+                <figure class="tarjeta figura">
+                    <img src="img/figura-5.png" alt="Figura 5. Influencia de las redes en los celos o la desconfianza: rara vez 15 (60 %); constantemente 8 (32 %); nunca 2 (8 %)." loading="lazy" width="1344" height="614">
+                    <figcaption><strong>Nota.</strong> Pregunta 5 de la encuesta. Las opciones se refieren a la frecuencia con la que se revisan los «me gusta», seguidores o historias; leer con precaución (ver limitaciones).</figcaption>
+                </figure>
+                <figure class="tarjeta figura">
+                    <img src="img/figura-6.png" alt="Figura 6. Forma de resolver los conflictos de pareja: en persona 22 (88 %); evita el conflicto y se distancia 2 (8 %); mensajes de texto 1 (4 %)." loading="lazy" width="1344" height="614">
+                    <figcaption><strong>Nota.</strong> Pregunta 6 de la encuesta.</figcaption>
+                </figure>
+                <figure class="tarjeta figura">
+                    <img src="img/figura-7.png" alt="Figura 7. Sentirse solo mientras se está conectado: sí 19 (76 %); no 6 (24 %)." loading="lazy" width="1344" height="614">
+                    <figcaption><strong>Nota.</strong> Pregunta 7 de la encuesta.</figcaption>
+                </figure>
+                <figure class="tarjeta figura">
+                    <img src="img/figura-8.png" alt="Figura 8. Validez de una declaración pública de amor, de 1 a 5: 3 (12 %), 7 (28 %), 10 (40 %), 4 (16 %), 1 (4 %). Promedio 2,72." loading="lazy" width="1344" height="650">
+                    <figcaption><strong>Nota.</strong> Pregunta 9 de la encuesta: validez de una declaración pública de amor (1 = nada real, 5 = totalmente real). El promedio se calcula a partir de la distribución.</figcaption>
+                </figure>
+                <figure class="tarjeta figura figura-ancha">
+                    <img src="img/figura-9.png" alt="Figura 9. Mayor desafío para mantener una relación hoy en día, respuestas abiertas agrupadas (n = 24): inseguridad, comparación y estándares de las redes 11 (46 %); confianza, fidelidad y engaño 5 (21 %); factores personales o de la relación no tecnológicos 5 (21 %); atención y distracción por el celular 1 (4 %); otras 2 (8 %)." loading="lazy" width="1344" height="684">
+                    <figcaption><strong>Nota.</strong> Pregunta 8 de la encuesta (abierta). Respondieron 24 de los 25 participantes; cada respuesta se ubicó en una sola categoría según su tema. Los porcentajes se calculan sobre n = 24.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- ANÁLISIS -->
+        <section id="analisis" class="seccion container">
+            <div class="titulo-seccion"><h3>Análisis de los Resultados</h3></div>
+            <div class="grid grid-3">
+                <div class="tarjeta o1">
+                    <h5>Giddens y Bauman</h5>
+                    <p>Aparece la sensación de relaciones «desechables» (72 % «sí, frecuentemente»; figura 4), junto con la desconfianza señalada en la pregunta abierta.</p>
+                </div>
+                <div class="tarjeta o2">
+                    <h5>Illouz</h5>
+                    <p>Sobre la validación pública los datos están divididos: 48 % la considera muy importante y 52 % poco o nada. Además, las declaraciones públicas se perciben como poco reales (2,72 sobre 5).</p>
+                </div>
+                <div class="tarjeta o3">
+                    <h5>Han</h5>
+                    <p>La comparación y los estándares de las redes aparecen en 11 de las 24 respuestas abiertas. Se usa más como marco de lectura que como hipótesis.</p>
+                </div>
+                <div class="tarjeta o4">
+                    <h5>Turkle, Roberts y David, Muise et al.</h5>
+                    <p>El 76 % se ha sentido solo estando conectado. También aparecen el celular y los celos, sin que pueda hablarse de causalidad.</p>
+                </div>
+                <div class="tarjeta o1 span-2-grid">
+                    <h5>Scolari</h5>
+                    <p>El pódcast como espacio de diálogo entre pares es una propuesta del proyecto, no un resultado de la encuesta.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CUMPLIMIENTO -->
+        <section id="cumplimiento" class="seccion container">
+            <div class="titulo-seccion"><h3>Cumplimiento de Objetivos</h3></div>
+            <ol class="episodios">
+                <li class="ep"><b aria-hidden="true">1</b><div><h5>Caracterizar las percepciones</h5><p>Se cumplió con la aplicación de la encuesta a 25 compañeros y la realización de los episodios del pódcast.</p></div></li>
+                <li class="ep"><b aria-hidden="true">2</b><div><h5>Contrastar con la teoría</h5><p>Se cumplió con la información del marco teórico y los resultados de la encuesta.</p></div></li>
+                <li class="ep"><b aria-hidden="true">3</b><div><h5>Recoger y analizar testimonios</h5><p>Se cumplió con el análisis de las encuestas y la grabación de tres episodios. El análisis temático completo de las transcripciones sigue pendiente.</p></div></li>
+                <li class="ep"><b aria-hidden="true">4</b><div><h5>Diseñar y producir el pódcast</h5><p>Se cumplió con la realización de tres episodios y la creación de la página web del proyecto. Además, está previsto un cuarto episodio en vivo para presentar el proyecto ante los jurados.</p></div></li>
+            </ol>
+        </section>
+
+        <!-- PODCAST -->
+        <section id="podcast" class="seccion container">
+            <div class="titulo-seccion"><h3>Propuesta de Innovación Transmedia: Prototipo</h3></div>
+            <p class="intro">El prototipo está terminado. El proyecto se materializa en un pódcast participativo que funciona como dispositivo de mediación y se expande a otras plataformas.</p>
+
+            <div class="serie">
+                <h4 class="pildora">Título de la serie</h4>
+                <p>Dinámicas del Corazón</p>
+            </div>
+
+            <h4 class="subtitulo">Tabla 2. Ficha técnica de Dinámicas del Corazón</h4>
+            <div class="tabla-wrap">
+                <table class="tabla-ficha">
+                    <thead><tr><th scope="col">Elemento</th><th scope="col">Descripción</th></tr></thead>
+                    <tbody>
+                        <tr><th scope="row">Título</th><td>Dinámicas del Corazón</td></tr>
+                        <tr><th scope="row">Formato</th><td>Serie de pódcast de conversación participativa, cuatro episodios</td></tr>
+                        <tr><th scope="row">Estado</th><td>Prototipo terminado: tres episodios realizados; el cuarto será en vivo durante la sustentación</td></tr>
+                        <tr><th scope="row">Duración</th><td>25 a 40 minutos por episodio (episodios 1 a 3)</td></tr>
+                        <tr><th scope="row">Participantes</th><td>Santiago Quesada, Chantal Niño y Danna Torres, estudiantes del semestre</td></tr>
+                        <tr><th scope="row">Temas</th><td>Aplicaciones; la confianza y la comunicación en la relación; ¿cómo se da el amor?</td></tr>
+                        <tr><th scope="row">Público objetivo</th><td>Jóvenes universitarios de 18 a 25 años de Cali, usuarios de redes sociales</td></tr>
+                        <tr><th scope="row">Plataformas</th><td><a class="enlace" href="https://dinamicasdelcorazon.github.io/paginaweboficial/" target="_blank" rel="noopener noreferrer">Sitio web del proyecto ↗</a></td></tr>
+                        <tr><th scope="row">Equipo realizador</th><td>Danna Julieth Campo Fonseca, Juan Alberto Echeverri García y Samuel Villamil Gutiérrez</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="grid grid-2 podcast-info">
+                <div class="tarjeta o1">
+                    <span class="emoji" aria-hidden="true">🧩</span>
+                    <h4 class="titulo">Arquitectura transmedia</h4>
+                    <p>Los episodios presentan con más detalle las experiencias y opiniones de los participantes, y las personas pueden dejar comentarios en YouTube o enviar correos electrónicos. El sitio web ofrece información sobre el proyecto y da acceso a los capítulos. La encuesta en línea recoge las respuestas anónimas de los estudiantes y complementa los testimonios.</p>
+                </div>
+                <div class="tarjeta o2">
+                    <span class="emoji" aria-hidden="true">🎤</span>
+                    <h4 class="titulo">Estructura de la serie</h4>
+                    <p>La serie tiene cuatro episodios, cada uno con un eje temático. Los episodios 1 a 3 ya están publicados. El cuarto será en vivo, para presentar el proyecto ante los jurados y tener una interacción directa con ellos y con los asistentes.</p>
+                    <div class="plataformas plataformas-claras"><span>Sitio web</span><span>YouTube</span><span>Correo</span><span>Encuesta</span><span>Episodio en vivo</span></div>
+                </div>
+            </div>
+
+            <h4 class="subtitulo subtitulo-tabla">Tabla 3. Enlaces y evidencia</h4>
+            <div class="tabla-wrap">
+                <table class="tabla-ficha">
+                    <thead><tr><th scope="col">Evidencia</th><th scope="col">Enlace</th></tr></thead>
+                    <tbody>
+                        <tr><th scope="row">Sitio web del proyecto</th><td><a class="enlace" href="https://dinamicasdelcorazon.github.io/paginaweboficial/" target="_blank" rel="noopener noreferrer">dinamicasdelcorazon.github.io/paginaweboficial ↗</a></td></tr>
+                        <tr><th scope="row">Episodio de Santiago Quesada</th><td><a class="enlace" href="https://youtu.be/HvdpJl6McpY?si=xB8u8VKFcCRW6-Cv" target="_blank" rel="noopener noreferrer">Ver en YouTube ↗</a></td></tr>
+                        <tr><th scope="row">Episodio de Chantal Niño</th><td><a class="enlace" href="https://youtu.be/IbirLTR--q8?si=XA8PHLSBmysQwkFY" target="_blank" rel="noopener noreferrer">Ver en YouTube ↗</a></td></tr>
+                        <tr><th scope="row">Episodio de Danna Torres</th><td><a class="enlace" href="https://youtu.be/B0OYoLruH_g?si=8XmQlAuCm17KuHdO" target="_blank" rel="noopener noreferrer">Ver en YouTube ↗</a></td></tr>
+                        <tr><th scope="row">Hoja de respuestas de la encuesta</th><td><a class="enlace" href="https://docs.google.com/spreadsheets/d/1OcetHeO_0qk9tyNH4ew2tPABlZaGrbswlYKFITZy0yI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Abrir hoja de cálculo ↗</a></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- EPISODIOS -->
+        <section id="menciones" class="seccion container">
+            <div class="titulo-seccion"><h3>Episodios del pódcast</h3></div>
+            <p class="intro">Los tres episodios finalizados, con estudiantes del semestre. Toca cada miniatura para verlo en YouTube.</p>
+            <div class="grid grid-3 menciones">
+                <a class="mencion" href="https://youtu.be/HvdpJl6McpY?si=xB8u8VKFcCRW6-Cv" target="_blank" rel="noopener noreferrer" aria-label="Ver en YouTube: Me terminaron por una amiga, con Santiago Quesada">
+                    <span class="mencion-thumb">
+                        <img src="img/mencion-3.jpg" alt="Miniatura del video: Me terminaron por una amiga" loading="lazy">
+                        <span class="mencion-play" aria-hidden="true">▶</span>
+                    </span>
+                    <span class="mencion-info"><strong>Me terminaron por una amiga</strong><span class="invitado">Con Santiago Quesada</span><em>Ver en YouTube ↗</em></span>
+                </a>
+                <a class="mencion" href="https://youtu.be/IbirLTR--q8?si=XA8PHLSBmysQwkFY" target="_blank" rel="noopener noreferrer" aria-label="Ver en YouTube: No superaba a su ex, con Chantal Niño">
+                    <span class="mencion-thumb">
+                        <img src="img/mencion-2.jpg" alt="Miniatura del video: No superaba a su ex" loading="lazy">
+                        <span class="mencion-play" aria-hidden="true">▶</span>
+                    </span>
+                    <span class="mencion-info"><strong>No superaba a su ex</strong><span class="invitado">Con Chantal Niño</span><em>Ver en YouTube ↗</em></span>
+                </a>
+                <a class="mencion" href="https://youtu.be/B0OYoLruH_g?si=8XmQlAuCm17KuHdO" target="_blank" rel="noopener noreferrer" aria-label="Ver en YouTube: Nuestra relación terminó horrible, con Danna Torres">
+                    <span class="mencion-thumb">
+                        <img src="img/mencion-1.jpg" alt="Miniatura del video: Nuestra relación terminó horrible" loading="lazy">
+                        <span class="mencion-play" aria-hidden="true">▶</span>
+                    </span>
+                    <span class="mencion-info"><strong>Nuestra relación terminó horrible</strong><span class="invitado">Con Danna Torres</span><em>Ver en YouTube ↗</em></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- LIMITACIONES -->
+        <section id="limitaciones" class="seccion container">
+            <div class="titulo-seccion"><h3>Limitaciones</h3></div>
+            <ul class="limites">
+                <li><strong>Muestra.</strong> No probabilística y pequeña (25 respuestas de 29 estudiantes; tres participantes en el pódcast). Describe a este grupo en particular y no permite generalizar.</li>
+                <li><strong>Autoselección.</strong> Solo respondieron quienes quisieron; no sabemos si quienes no lo hicieron piensan distinto.</li>
+                <li><strong>Encuesta.</strong> No se preguntó el semestre, el programa ni la edad, así que no hay certeza de que todos los que respondieron sean del semestre. La pregunta 5 indaga la frecuencia con que se revisan los «me gusta» y las historias, no la intensidad de la influencia de las redes en los celos, lo que limita su interpretación.</li>
+                <li><strong>Pódcast.</strong> Se grabó sin guía escrita de preguntas y solo hay tres participantes.</li>
+                <li><strong>Ética.</strong> El consentimiento de los participantes del pódcast se dio de forma verbal.</li>
+                <li><strong>Alcance.</strong> Es una descripción de percepciones; no se identifican causas ni relaciones causa-efecto.</li>
+            </ul>
+        </section>
+
+        <!-- CONCLUSIONES -->
+        <section id="conclusion" class="seccion container">
+            <div class="titulo-seccion"><h3>Conclusiones</h3></div>
+            <div class="conclusion">
+                <p class="lead">
+                    Las redes hacen más difícil construir una relación seria (56 %); solo una minoría piensa que la facilitan (24 %). El desafío más mencionado es la inseguridad, la comparación y los estándares proyectados por las redes sociales.
+                </p>
+                <p><strong>Sobre las interacciones cara a cara.</strong> No se puede afirmar que lo digital haya reemplazado la interacción cara a cara: el 80 % conoce a posibles parejas en persona y el 88 % prefiere resolver los conflictos en persona.</p>
+                <p><strong>Sobre la fragilidad percibida y la soledad.</strong> El 72 % siente con frecuencia que sus relaciones actuales son «desechables» y el 76 % se ha sentido solo mientras está conectado. Es lo que sugieren Bauman (2003/2005) y Turkle (2011), pero este estudio no establece que las redes sociales sean la causa.</p>
+                <p><strong>Sobre la validación pública del afecto.</strong> Las declaraciones públicas de amor tienen una validez entre baja e intermedia (promedio de 2,72 sobre 5), pero el 48 % da mucha importancia a las publicaciones y los «me gusta» de su pareja. Ambas posiciones coexisten.</p>
+                <p><strong>Sobre los testimonios del pódcast.</strong> Los episodios muestran que las redes sociales pueden degradar las relaciones y generan mucha inseguridad en quienes están en pareja. La comunicación y la confianza también se ven afectadas por la tecnología, que ofrece cosas positivas y negativas. La forma de expresar el amor también cambia, con una fijación en lo superficial que se aprecia en el pódcast.</p>
+            </div>
+            <div class="tarjeta reflexion">
+                <h4 class="titulo">Reflexión de los autores</h4>
+                <p>La experiencia fue muy grata: se aprendió mucho sobre lo que viven los jóvenes en el día a día, y fue también un viaje interno para identificar qué cosas pueden fortalecer los lazos en nuestras propias relaciones. El proceso tuvo dificultades, sobre todo de comunicación, pero fuimos madurando como equipo. Lo más importante fue dejar de ver el proyecto como una obligación y empezar a verlo como un grupo de amigos conversando sobre un tema tan cotidiano como el amor. Nuestro mayor aporte a la Producción Transmedia es mostrar cómo una problemática social se transforma en métodos de aprendizaje digital con productos dinámicos, sin necesidad de clases teóricas ni textos largos.</p>
+            </div>
+        </section>
+
+        <!-- REFERENCIAS -->
+        <section id="bibliografia" class="seccion container">
+            <div class="titulo-seccion"><h3>Referencias</h3></div>
+            <ul class="biblio">
+                <li>Bauman, Z. (2005). <em>Amor líquido: Acerca de la fragilidad de los vínculos humanos</em>. Fondo de Cultura Económica. (Obra original publicada en 2003)</li>
+                <li>Bernal Guzmán, Y. M. (2024). <em>Relación entre redes sociales, celotipia y dependencia emocional en jóvenes entre los 18 y 30 años</em> [Tesis de pregrado, Universidad Cooperativa de Colombia]. Repositorio Institucional Universidad Cooperativa de Colombia. <a class="enlace" href="https://hdl.handle.net/20.500.12494/54004" target="_blank" rel="noopener noreferrer">https://hdl.handle.net/20.500.12494/54004</a></li>
+                <li>Braun, V., &amp; Clarke, V. (2021). <em>Thematic analysis: A practical guide</em>. SAGE Publications.</li>
+                <li>Giddens, A. (1995). <em>La transformación de la intimidad: Sexualidad, amor y erotismo en las sociedades modernas</em>. Ediciones Cátedra. (Obra original publicada en 1992)</li>
+                <li>Han, B.-C. (2014). <em>La agonía del Eros</em> (R. Gabás, Trad.). Herder Editorial.</li>
+                <li>Hernández-Sampieri, R., &amp; Mendoza, C. P. (2018). <em>Metodología de la investigación: Las rutas cuantitativa, cualitativa y mixta</em>. McGraw-Hill Education.</li>
+                <li>Illouz, E. (2007). <em>Intimidades congeladas: Las emociones en el capitalismo</em> (J. Ibarburu, Trad.). Katz Editores.</li>
+                <li>Illouz, E. (2020). <em>El fin del amor: Una sociología de las relaciones negativas</em> (L. Mosconi, Trad.). Katz Editores. (Obra original publicada en 2019)</li>
+                <li>Kerlinger, F. N., &amp; Lee, H. B. (2002). <em>Investigación del comportamiento: Métodos de investigación en ciencias sociales</em> (4.ª ed.). McGraw-Hill. (Obra original publicada en 2000)</li>
+                <li>Muise, A., Christofides, E., &amp; Desmarais, S. (2009). More information than you ever wanted: Does Facebook bring out the green-eyed monster of jealousy? <em>CyberPsychology &amp; Behavior, 12</em>(4), 441–444. <a class="enlace" href="https://doi.org/10.1089/cpb.2008.0263" target="_blank" rel="noopener noreferrer">https://doi.org/10.1089/cpb.2008.0263</a></li>
+                <li>Otzen, T., &amp; Manterola, C. (2017). Técnicas de muestreo sobre una población a estudio. <em>International Journal of Morphology, 35</em>(1), 227–232. <a class="enlace" href="https://doi.org/10.4067/S0717-95022017000100037" target="_blank" rel="noopener noreferrer">https://doi.org/10.4067/S0717-95022017000100037</a></li>
+                <li>Roberts, J. A., &amp; David, M. E. (2016). My life has become a major distraction from my cell phone: Partner phubbing and relationship satisfaction among romantic partners. <em>Computers in Human Behavior, 54</em>, 134–141. <a class="enlace" href="https://doi.org/10.1016/j.chb.2015.07.058" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.chb.2015.07.058</a></li>
+                <li>Scolari, C. A. (2013). <em>Narrativas transmedia: Cuando todos los medios cuentan</em>. Deusto.</li>
+                <li>Taylor, S. J., &amp; Bogdan, R. (1987). <em>Introducción a los métodos cualitativos de investigación: La búsqueda de significados</em>. Paidós. (Obra original publicada en 1984)</li>
+                <li>Turkle, S. (2011). <em>Alone together: Why we expect more from technology and less from each other</em>. Basic Books.</li>
+                <li>Twenge, J. M. (2023). <em>Generations: The real differences between Gen Z, millennials, Gen X, boomers, and silents—and what they mean for America's future</em>. Atria Books.</li>
+                <li>Zúñiga Escobar, N. L. (2018). <em>¿Bien y tú? Construcción del vínculo afectivo de pareja con la intermediación de las aplicaciones virtuales Instagram y WhatsApp: El caso de seis jóvenes del eje conurbano Cali–Jamundí</em> [Trabajo de grado, Universidad de San Buenaventura]. Repositorio Institucional USB. <a class="enlace" href="http://hdl.handle.net/10819/5685" target="_blank" rel="noopener noreferrer">http://hdl.handle.net/10819/5685</a></li>
+            </ul>
+        </section>
+
+        <!-- ANEXO -->
+        <section id="anexo" class="seccion container">
+            <div class="titulo-seccion"><h3>Anexo A. Encuesta anónima</h3></div>
+            <p class="intro">Formulario en línea de nueve preguntas. Las opciones de respuesta son las que se observaron en las respuestas.</p>
+            <ol class="preguntas">
+                <li>¿Cuál es el medio principal por el cual conoces a personas con interés romántico? <span>Redes sociales; interacción cara a cara; aplicaciones de citas.</span></li>
+                <li>En tu opinión, ¿las redes sociales facilitan o complican la construcción de una relación seria? <span>Las facilitan; las complican; no influyen significativamente.</span></li>
+                <li>¿Qué importancia le das a que tu pareja publique fotos contigo o te dé «likes» constantemente? <span>Mucha; poca; ninguna.</span></li>
+                <li>¿Has sentido alguna vez que las relaciones actuales son «desechables» o efímeras? <span>Sí, con frecuencia; a veces; no, creo que el compromiso sigue siendo fuerte.</span></li>
+                <li>¿Qué tanto influyen las redes sociales en tus sentimientos de celos o desconfianza? <span>Constantemente, reviso likes, seguidores o historias; rara vez; nunca.</span></li>
+                <li>¿Prefieres resolver un conflicto de pareja de forma presencial o a través de mensajes de texto? <span>Presencial; mensajes de texto; evito el conflicto y prefiero distanciarme.</span></li>
+                <li>¿Te has sentido solo(a) a pesar de estar conectado(a) y hablando con alguien por redes? <span>Sí; no.</span></li>
+                <li>¿Cuál crees que es el mayor desafío para mantener una relación amorosa hoy en día con tanta tecnología de por medio? <span>Respuesta abierta.</span></li>
+                <li>En una escala del 1 al 5 (1 = nada real, 5 = totalmente real), ¿qué tanta validez le das a una declaración de amor hecha públicamente en redes sociales?</li>
+            </ol>
+            <p class="intro"><a class="btn btn-primary" href="https://docs.google.com/spreadsheets/d/1OcetHeO_0qk9tyNH4ew2tPABlZaGrbswlYKFITZy0yI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Ver la hoja de respuestas ↗</a></p>
+        </section>
+
+        <!-- AUTORES -->
+        <section class="seccion container">
+            <div class="titulo-seccion"><h3>Autores</h3></div>
+            <div class="grid grid-4">
+                <div class="tarjeta autor a1">
+                    <span class="avatar" aria-hidden="true">S</span>
+                    <p class="nombre-autor">Samuel Villamil Gutiérrez</p>
+                    <p>Tecnología en Producción Transmedia</p>
+                </div>
+                <div class="tarjeta autor a2">
+                    <span class="avatar" aria-hidden="true">D</span>
+                    <p class="nombre-autor">Danna Julieth Campos Fonseca</p>
+                    <p>Tecnología en Producción Transmedia</p>
+                </div>
+                <div class="tarjeta autor a3">
+                    <span class="avatar" aria-hidden="true">J</span>
+                    <p class="nombre-autor">Juan Alberto Echeverry García</p>
+                    <p>Tecnología en Producción Transmedia</p>
+                </div>
+                <div class="tarjeta autor a1">
+                    <span class="avatar" aria-hidden="true">C</span>
+                    <p class="nombre-autor">Christian Daniel Marín Franco</p>
+                    <p>Tecnología en Producción Transmedia</p>
+                </div>
+            </div>
+            <div class="info-institucion">
+                <p class="institucion">Facultad de Humanidades y Artes, Universidad Santiago de Cali</p>
+                <p>Tecnología en Producción Transmedia · Tendencias de las humanidades en el mundo contemporáneo · Línea 2 Educomunicación, cultura y TIC · ODS 3</p>
+                <p>Director: Profesora Vanessa Alarcón | Santiago de Cali – Colombia, 2026</p>
+            </div>
+        </section>
+    </main>
+
+    <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+            <span>El amor también se está reescribiendo ♥</span><span>El amor también se está reescribiendo ♥</span><span>El amor también se está reescribiendo ♥</span><span>El amor también se está reescribiendo ♥</span><span>El amor también se está reescribiendo ♥</span><span>El amor también se está reescribiendo ♥</span><span>El amor también se está reescribiendo ♥</span><span>El amor también se está reescribiendo ♥</span>
+        </div>
+    </div>
+
+    <footer id="pie">
+        <p class="titulo-footer">Dinámicas del Corazón © 2026</p>
+        <p>Vínculos afectivos mediados digitalmente en estudiantes de Transmedia USC</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const mainMenu = document.querySelector('#menu-principal');
+        const closeSubmenus = (except) => document.querySelectorAll('.has-submenu.is-open').forEach((item) => {
+            if (item !== except) {
+                item.classList.remove('is-open');
+                item.querySelector('.submenu-toggle')?.setAttribute('aria-expanded', 'false');
+            }
+        });
+
+        menuToggle?.addEventListener('click', () => {
+            const isOpen = menuToggle.getAttribute('aria-expanded') === 'true';
+            menuToggle.setAttribute('aria-expanded', String(!isOpen));
+            mainMenu.classList.toggle('is-open', !isOpen);
+        });
+
+        document.querySelectorAll('.submenu-toggle').forEach((toggle) => {
+            toggle.addEventListener('click', (event) => {
+                event.preventDefault();
+                const item = toggle.closest('.has-submenu');
+                const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+                closeSubmenus(item);
+                toggle.setAttribute('aria-expanded', String(!isOpen));
+                item.classList.toggle('is-open', !isOpen);
+            });
+        });
+
+        document.querySelectorAll('#menu-principal a').forEach((link) => {
+            link.addEventListener('click', () => {
+                mainMenu.classList.remove('is-open');
+                menuToggle?.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        document.addEventListener('click', (event) => {
+            if (!event.target.closest('.has-submenu')) closeSubmenus();
+        });
+
+        const barra = document.querySelector('.progreso span');
+        addEventListener('scroll', () => {
+            const d = document.documentElement;
+            barra.style.transform = `scaleX(${d.scrollTop / (d.scrollHeight - d.clientHeight)})`;
+        }, { passive: true });
+
+        document.querySelectorAll('.like').forEach((btn) => btn.addEventListener('click', () => {
+            btn.setAttribute('aria-pressed', String(btn.getAttribute('aria-pressed') !== 'true'));
+        }));
+    </script>
+</body>
+</html>
